@@ -11,6 +11,10 @@
 		7A21932B2C62756C004734BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A21932A2C62756C004734BB /* ContentView.swift */; };
 		7A21932D2C62756D004734BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A21932C2C62756D004734BB /* Assets.xcassets */; };
 		7A2193302C62756D004734BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A21932F2C62756D004734BB /* Preview Assets.xcassets */; };
+		7A2193372C6275BD004734BB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2193362C6275BD004734BB /* User.swift */; };
+		7A2193392C62769C004734BB /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2193382C62769C004734BB /* UserViewModel.swift */; };
+		7A21933B2C627C46004734BB /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A21933A2C627C46004734BB /* UserDetailView.swift */; };
+		7A21933D2C629790004734BB /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A21933C2C629790004734BB /* UserCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7A21932A2C62756C004734BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A21932C2C62756D004734BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A21932F2C62756D004734BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A2193362C6275BD004734BB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7A2193382C62769C004734BB /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		7A21933A2C627C46004734BB /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		7A21933C2C629790004734BB /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 		7A21931C2C62756B004734BB = {
 			isa = PBXGroup;
 			children = (
+				7A21933C2C629790004734BB /* UserCardView.swift */,
+				7A21933A2C627C46004734BB /* UserDetailView.swift */,
 				7A2193272C62756C004734BB /* Friends */,
 				7A2193262C62756C004734BB /* Products */,
 			);
@@ -53,6 +63,8 @@
 			children = (
 				7A2193282C62756C004734BB /* FriendsApp.swift */,
 				7A21932A2C62756C004734BB /* ContentView.swift */,
+				7A2193362C6275BD004734BB /* User.swift */,
+				7A2193382C62769C004734BB /* UserViewModel.swift */,
 				7A21932C2C62756D004734BB /* Assets.xcassets */,
 				7A21932E2C62756D004734BB /* Preview Content */,
 			);
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A21932B2C62756C004734BB /* ContentView.swift in Sources */,
+				7A2193392C62769C004734BB /* UserViewModel.swift in Sources */,
+				7A2193372C6275BD004734BB /* User.swift in Sources */,
+				7A21933D2C629790004734BB /* UserCardView.swift in Sources */,
+				7A21933B2C627C46004734BB /* UserDetailView.swift in Sources */,
 				7A2193292C62756C004734BB /* FriendsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

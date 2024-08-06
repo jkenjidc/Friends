@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    var model = UserViewModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            List{
+                ForEach(model.users, id: \.self){ user in
+                    NavigationLink{
+                        UserDetailView(user: user)
+                    } label: {
+                        UserCardView(user: user)
+                    }
+                }
+            }
+            .navigationTitle("Friendster")
         }
-        .padding()
+        .onAppear{
+            if model.users.isEmpty {
+                Task{
+                    await model.fetchUsers()
+                }
+            }
+        }
     }
 }
 
