@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import SwiftData
 
+@MainActor
 struct UserViewModel {
     
     func fetchUsers(modelContext: ModelContext) async throws{
